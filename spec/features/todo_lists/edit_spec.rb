@@ -1,7 +1,7 @@
 require "spec_helper"
 
 
-describe "Edit todo lists" do
+describe "Edit todo list item" do
 	let!(:todo_list) {
 		TodoList.create(title: "Groceries", description: "Grocery list.")
 	}
